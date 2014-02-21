@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3C50F118B7EB47008D954E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C50F018B7EB47008D954E /* DetailViewController.m */; };
 		FAF3F8B618B69AD20075C66F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3F8B518B69AD20075C66F /* Foundation.framework */; };
 		FAF3F8B818B69AD20075C66F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3F8B718B69AD20075C66F /* CoreGraphics.framework */; };
 		FAF3F8BA18B69AD20075C66F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3F8B918B69AD20075C66F /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		FAF3F8D718B69AD20075C66F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3F8BB18B69AD20075C66F /* CoreData.framework */; };
 		FAF3F8DF18B69AD20075C66F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF3F8DD18B69AD20075C66F /* InfoPlist.strings */; };
 		FAF3F8E118B69AD30075C66F /* CoreDataTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3F8E018B69AD30075C66F /* CoreDataTutorialTests.m */; };
+		FAF3F8EB18B69AE30075C66F /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF3F8EA18B69AE30075C66F /* iPhone.storyboard */; };
+		FAF3F8EE18B69AFB0075C66F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3F8ED18B69AFB0075C66F /* FirstViewController.m */; };
+		FAF3F8F118B69D9D0075C66F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3F8F018B69D9D0075C66F /* User.m */; };
+		FAF3F8F418B69E060075C66F /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF3F8F318B69E060075C66F /* TableViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3C50EF18B7EB47008D954E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FA3C50F018B7EB47008D954E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FAF3F8B218B69AD20075C66F /* CoreDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF3F8B518B69AD20075C66F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAF3F8B718B69AD20075C66F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,13 @@
 		FAF3F8DC18B69AD20075C66F /* CoreDataTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		FAF3F8DE18B69AD20075C66F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAF3F8E018B69AD30075C66F /* CoreDataTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTutorialTests.m; sourceTree = "<group>"; };
+		FAF3F8EA18B69AE30075C66F /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		FAF3F8EC18B69AFB0075C66F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAF3F8ED18B69AFB0075C66F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAF3F8EF18B69D9D0075C66F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FAF3F8F018B69D9D0075C66F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FAF3F8F218B69E060075C66F /* TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewController.h; sourceTree = "<group>"; };
+		FAF3F8F318B69E060075C66F /* TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,15 @@
 			children = (
 				FAF3F8C618B69AD20075C66F /* AppDelegate.h */,
 				FAF3F8C718B69AD20075C66F /* AppDelegate.m */,
+				FAF3F8EC18B69AFB0075C66F /* FirstViewController.h */,
+				FAF3F8ED18B69AFB0075C66F /* FirstViewController.m */,
+				FAF3F8F218B69E060075C66F /* TableViewViewController.h */,
+				FAF3F8F318B69E060075C66F /* TableViewViewController.m */,
+				FA3C50EF18B7EB47008D954E /* DetailViewController.h */,
+				FA3C50F018B7EB47008D954E /* DetailViewController.m */,
+				FAF3F8EF18B69D9D0075C66F /* User.h */,
+				FAF3F8F018B69D9D0075C66F /* User.m */,
+				FAF3F8EA18B69AE30075C66F /* iPhone.storyboard */,
 				FAF3F8CC18B69AD20075C66F /* Images.xcassets */,
 				FAF3F8C918B69AD20075C66F /* CoreDataTutorial.xcdatamodeld */,
 				FAF3F8BE18B69AD20075C66F /* Supporting Files */,
@@ -229,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF3F8C218B69AD20075C66F /* InfoPlist.strings in Resources */,
+				FAF3F8EB18B69AE30075C66F /* iPhone.storyboard in Resources */,
 				FAF3F8CD18B69AD20075C66F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF3F8F118B69D9D0075C66F /* User.m in Sources */,
 				FAF3F8C818B69AD20075C66F /* AppDelegate.m in Sources */,
 				FAF3F8C418B69AD20075C66F /* main.m in Sources */,
 				FAF3F8CB18B69AD20075C66F /* CoreDataTutorial.xcdatamodeld in Sources */,
+				FAF3F8F418B69E060075C66F /* TableViewViewController.m in Sources */,
+				FAF3F8EE18B69AFB0075C66F /* FirstViewController.m in Sources */,
+				FA3C50F118B7EB47008D954E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataTutorial/CoreDataTutorial-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataTutorial/CoreDataTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreDataTutorial/CoreDataTutorial-Prefix.pch";
 				INFOPLIST_FILE = "CoreDataTutorial/CoreDataTutorial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -451,6 +481,7 @@
 				FAF3F8E618B69AD30075C66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF3F8E718B69AD30075C66F /* Build configuration list for PBXNativeTarget "CoreDataTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +490,7 @@
 				FAF3F8E918B69AD30075C66F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
