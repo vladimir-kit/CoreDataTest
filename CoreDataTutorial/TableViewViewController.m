@@ -26,7 +26,6 @@
     user = [[User alloc] init];
     
     [self loadUserData];
-    [[self tableView] reloadData];
 }
 
 - (void)loadUserData {
@@ -67,7 +66,6 @@
 
 #pragma mark - UITableViewDelegate
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     managedObjectContext = [appDelegate managedObjectContext];
     NSFetchRequest *fetch = [[NSFetchRequest alloc] init];
